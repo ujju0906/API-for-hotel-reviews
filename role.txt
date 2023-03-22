@@ -1,0 +1,7 @@
+arn:aws:iam::670234938198:role/EC2InstanceProfileRole
+
+arn:aws:s3:::reportbucket475
+
+aws s3 cp report-test1.txt s3://reportbucket475
+
+aws s3 cp s3://reportbucket475/sample-file.txt sample-file.txt
